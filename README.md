@@ -1,3 +1,25 @@
+# MileStone
+## Nonfunctional Requirement
+I assigned the Homework 1 to all team members and create a excel file on google docs for them.
+
+It should due on Sep 12
+
+## Tooling
+After we finish the evaluation we begin to set up vagrant and virtualBox stuff for tooling.
+
+## Functional Requirement
+All team members team met on Sep 19 afternoon for discussing Functional Requirement.
+
+## Design
+On Oct 9, we assigned tasks to everyone.
+
+## Coding, Testing, Implementation
+Oct 9 - Oct 17, everyone working on the functional requirements and we met on Oct 17 afternoon.
+
+## Finish the Login&Registration
+On 20
+
+
 # Toro Net
 ## Getting
 Fork the repo then clone it to your local machine.
@@ -10,7 +32,7 @@ Change your directory into the dir on your VirtualBox Ubuntu virtual machine.
 cd toro-net
 ```
 
-Create .env file. Add a `.env` file with your PORT, MONGO_URI, 
+Create .env file. Add a `.env` file with your PORT, MONGO_URI,
 [GITHUB_ID, GITHUB_SECRET and APP_URL](https://github.com/jaredhanson/passport-github) like this:
 
 ```
@@ -31,7 +53,7 @@ bash dev-env.sh
 Install node packages with npm.  
 ```
 npm install
-``` 
+```
 
 Build and watch for changes.  
 ```
@@ -53,7 +75,7 @@ Open http://localhost:3000 in any web browser.
 
 ---
 ## Vagrant Setup Instructions
-__WINDOWS USERS: If you are running Vagrant on a Windows machine follow the [Windows Instructions](#windows-vagrant-setup-instructions) at the end of this document before proceeding__ 
+__WINDOWS USERS: If you are running Vagrant on a Windows machine follow the [Windows Instructions](#windows-vagrant-setup-instructions) at the end of this document before proceeding__
 ```
 # cd into the dir
 cd toro-net
@@ -84,24 +106,24 @@ cd toro-net
 ```
 ---
 ### Windows Vagrant Setup Instructions
-Windows has a number of quirks which make it more difficult to run with Node and Node Package 
-Manager (NPM) in particular.  The short story is that NPM has file paths and names which are 
+Windows has a number of quirks which make it more difficult to run with Node and Node Package
+Manager (NPM) in particular.  The short story is that NPM has file paths and names which are
 longer than Windows supports by default.  To get around this issue the instructions below will
 show you how to:
 
- 1) Increase the number of characters allowed in file paths by Windows, and 
+ 1) Increase the number of characters allowed in file paths by Windows, and
  2) Create symbolic links in Windows so that our NPM modules can be installed in a different directory in our Vagrant VM to avoid conflicts in the Windows shared folder, but still be run from our project directory.
 
 These steps are based upon an online guide found [here](https://www.prolificinteractive.com/2015/01/21/getting-vagrant-nodejs-windows-play-well-together/).
 
-Add the following to your toro-net Vagrantfile to enable symlinks in VirtualBox: 
+Add the following to your toro-net Vagrantfile to enable symlinks in VirtualBox:
 ```bash
 # enable vbox symlinks
 config.vm.provider "virtualbox" do |vb|
     vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant", "1"]
 end
 ```
-Open a Windows admin shell, and run the following command to enable symlinks in 
+Open a Windows admin shell, and run the following command to enable symlinks in
 Windows between local and remote (AKA our Vagrant VM instance) machines:
 ```bash
 # enable Windows symlinks
@@ -113,14 +135,14 @@ Provision your Vagrant box
 # start vagrant VM
 vagrant up
 ```
-Bypass the Windows 260 character limit by creating a symlink to write 
+Bypass the Windows 260 character limit by creating a symlink to write
 `npm modules` to our VM instead
     of to our shared Windows folder.
 ```bash
 # ssh into the vagrant session
 vagrant ssh
 
-# create the symlink 
+# create the symlink
 # ex. ln -s <path-to-shared-folder> <path-to-vm-home-directory-for-node-modules>
 ln -s /home/ubuntu/toro-net /home/ubuntu
 ```
