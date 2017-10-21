@@ -1,23 +1,4 @@
-# MileStone
-## Nonfunctional Requirement
-I assigned the Homework 1 to all team members and create a excel file on google docs for them.
-
-It should due on Sep 12
-
-## Tooling
-After we finish the evaluation we begin to set up vagrant and virtualBox stuff for tooling.
-
-## Functional Requirement
-All team members team met on Sep 19 afternoon for discussing Functional Requirement.
-
-## Design
-On Oct 9, we assigned tasks to everyone.
-
-## Coding, Testing, Implementation
-Oct 9 - Oct 17, everyone working on the functional requirements and we met on Oct 17 afternoon.
-
-## Finish the Login&Registration
-On 20
+[Ticket #1](https://github.com/Felixwhwang/csc583-midterm/issues/1)
 
 ## Screenshot for git push process
 ![screen shot 2017-10-21 at 2 46 50 pm](https://user-images.githubusercontent.com/31264160/31856119-d2fde14e-b66e-11e7-949a-a77186091567.png)
