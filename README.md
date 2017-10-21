@@ -1,4 +1,5 @@
 [Ticket #1](https://github.com/Felixwhwang/csc583-midterm/issues/1)
+
 [MileStone](https://github.com/Felixwhwang/csc583-midterm/blob/master/images/milestone.png)
 
 ## Screenshot for git push process
