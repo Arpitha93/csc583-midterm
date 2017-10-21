@@ -19,6 +19,11 @@ Oct 9 - Oct 17, everyone working on the functional requirements and we met on Oc
 ## Finish the Login&Registration
 On 20
 
+## Screenshot for git push process
+![screen shot 2017-10-21 at 2 46 50 pm](https://user-images.githubusercontent.com/31264160/31856119-d2fde14e-b66e-11e7-949a-a77186091567.png)
+![screen shot 2017-10-21 at 2 47 12 pm](https://user-images.githubusercontent.com/31264160/31856121-d680fad6-b66e-11e7-97f3-472cab8c48a0.png)
+
+
 
 # Toro Net
 ## Getting
